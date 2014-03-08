@@ -116,7 +116,15 @@ To install the latest (stable) version from the Hackage repository, use:
 cabal install helm
 ```
 
-Alternatively to get the latest development version, you can clone this repository and then run:
+Alternatively to get the latest development version, make sure that you have installed [hsSDL2](https://github.com/Lemmih/hsSDL2)
+
+
+```
+git clone https://github.com/Lemmih/hsSDL2
+cd hsSDL2 && cabal install
+```
+
+then you can clone this repository and run:
 
 ```
 cabal install
